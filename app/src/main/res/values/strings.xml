@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">" programming"</string>
+    <string name="splash_screen">Splash Screen</string>
+    <string name="name_Menu1">Menu 1</string>
+    <string name="name_Menu2">Menu 2</string>
+    <string name="name_Menu3">Menu 3</string>
+    <string name="name_Menu4">Menu 4</string>
+    <string name="name_Menu5">Menu 5</string>
+
+    <string name="name_Menu_page1"> Page Menu 1</string>
+    <string name="name_Menu_page2"> Page Menu 2</string>
+    <string name="name_Menu_page_edit"> กรุณากรอกข้อตัวเลข</string>
+    <string name="name_Menu_click"> คำนวณ</string>
+    <string name="name_Menu_text"> ผลลัพธ์</string>
+    <string name="name_Menu_clear"> ล้างข้อมูล</string>
+    <string name="name_Menu_message"> กรุณาใส่ข้อความ</string>
+    <string name="cul_number">คำนวน</string>
+    <string name="input_number">โปรดใส่ข้อมูลความยาวเชือก เวลาในหน่วยวิ</string>
+    <string name="input_number_ant">โปรดใส่จำนวนของมด</string>
+    <string name="input_number_start">โปรดใสตำแหน่งแรก และทิศทาง</string>
+    <string name="input_number_triangle">โปรดใสตำแหน่ง </string>
+
+
+</resources>
