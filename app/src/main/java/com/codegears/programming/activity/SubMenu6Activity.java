@@ -143,7 +143,7 @@ public class SubMenu6Activity extends AppCompatActivity {
             if (max < tempMax)
             {
                 max = tempMax;
-                count = i;
+                count ++;
             }
         }
 
