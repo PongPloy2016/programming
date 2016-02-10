@@ -21,4 +21,13 @@
     <string name="input_number_triangle">โปรดใสตำแหน่ง </string>
 
 
+    <string name="action_settings">Settings</string>
+    <string name="point">point</string>
+    <string name="example">Example</string>
+    <string name="triple_icon_description">Triple Icon</string>
+    <string name="triple_user_name_placeholder">User</string>
+    <string name="triple_status_placeholder">Status</string>
+    <string name="triple_contact_placeholder">Contact</string>
+
+
 </resources>

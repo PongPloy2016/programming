@@ -20,7 +20,8 @@
         <activity android:name=".activity.SubMenu2Activity" />
         <activity android:name=".activity.SunMenu3Activty" />
         <activity android:name=".activity.SubMenu4Activty" />
-        <activity android:name=".activity.SubMenu5Activty"></activity>
+        <activity android:name=".activity.SubMenu5Activty" />
+        <activity android:name=".activity.SubMenu6Activity"></activity>
     </application>
 
 </manifest>
