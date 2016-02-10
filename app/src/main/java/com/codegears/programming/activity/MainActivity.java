@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     long delay_time;
     long time = 3000L;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
