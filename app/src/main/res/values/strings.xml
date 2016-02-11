@@ -19,6 +19,7 @@
     <string name="input_number_ant">โปรดใส่จำนวนของมด</string>
     <string name="input_number_start">โปรดใสตำแหน่งแรก และทิศทาง</string>
     <string name="input_number_triangle">โปรดใสตำแหน่ง </string>
+    <string name="input_number_number">โปรดใส่จำนวน</string>
 
 
     <string name="action_settings">Settings</string>

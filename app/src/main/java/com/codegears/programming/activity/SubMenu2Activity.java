@@ -38,7 +38,7 @@ public class SubMenu2Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_activity__menu_2);
+        setContentView(R.layout.activity_activity_menu_2);
 
         bt_cal  = (Button) findViewById(R.id.bt_cal1_menu);
         bt_claer  = (Button) findViewById(R.id.bt_cal1_clear);

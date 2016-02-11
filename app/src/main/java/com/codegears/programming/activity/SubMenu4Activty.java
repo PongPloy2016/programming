@@ -12,11 +12,6 @@ import android.widget.Toast;
 
 import com.codegears.programming.R;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.PriorityQueue;
-
 public class SubMenu4Activty extends AppCompatActivity {
 
 
@@ -33,7 +28,7 @@ public class SubMenu4Activty extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_activity_meum_4);
+        setContentView(R.layout.activity_activity_menu_4);
 
 
         number_data_1 = (EditText) findViewById(R.id.et_text);

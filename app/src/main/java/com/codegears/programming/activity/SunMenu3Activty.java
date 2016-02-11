@@ -30,7 +30,7 @@ public class SunMenu3Activty extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_activity__menu_3);
+        setContentView(R.layout.activity_activity_menu_3);
 
 
         final int[] preD = new int[5];

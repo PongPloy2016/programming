@@ -27,6 +27,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/et_text"
+            android:hint="@string/input_number_number"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/et_text_2"
             android:hint="@string/input_number_triangle"/>
 
 

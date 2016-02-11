@@ -24,7 +24,7 @@ public class SubMenu5Activty extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_acitvity_menu_5);
+        setContentView(R.layout.activity_activity_menu_5);
 
 
         number_data_1 = (EditText) findViewById(R.id.et_text);
