@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 
 import com.codegears.programming.R;
+import com.codegears.programming.util.Logger;
 
 import java.util.ArrayList;
 
@@ -86,7 +87,7 @@ public class SubMenu1Activity extends AppCompatActivity {
         if (number == r) {
             String strNumbers = "1,2,3,4,5";
             String s1 = String.valueOf(i);
-            Log.e("data", s1);
+            Logger.Log("name",s1);
            // String[] strValues = new String[] {s1 };
             //ArrayList<String> aListNumbers = new ArrayList<String>(Arrays.asList(strValues));
             aListNumbers.add(s1);

@@ -44,8 +44,6 @@ public class SubMenu6Activity extends AppCompatActivity {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
-
-
             }
 
             @Override
@@ -109,28 +107,22 @@ public class SubMenu6Activity extends AppCompatActivity {
         });
     }
     public static ArrayList<ArrayList<Integer>> grouping(int limit, int[] array) {
-        // Sort the input array.
         Arrays.sort(array);
-        // Copy the int[] to an ArrayList<Integer>
         ArrayList<Integer> input = new ArrayList<>();
         for (int i = 1; i < array.length; i++) {
             input.add(array[i]);
 
             Log.e("array[i]", String.valueOf(array[i]));
         }
-        // Initialize the groups
         ArrayList<ArrayList<Integer>> groups = new ArrayList<>();
         groups.add(new ArrayList<Integer>());
-        // Initialize the sums of the groups, to increase performance (I guess).
         ArrayList<Integer> sums = new ArrayList<>();
         sums.add(0);
-        // Iterate through the input array until there is no number left in it (that means we just added all the numbers
-        // into our groups array).
+
         while (!input.isEmpty()) {
             int n = input.get(0); // Store the number to 'n', to shortcut.
             if (n > limit) {
                 throw new IllegalArgumentException("number is greater than the limit. Cannot add number.");
-                // Or whatever to do if the number is larger than the limit.
             }
             boolean match = false;
             // Search the next groups and check if our current number ('n') fits.
@@ -140,6 +132,8 @@ public class SubMenu6Activity extends AppCompatActivity {
                     sums.set(i, sums.get(i) + n);
                     groups.get(i).add(n);
                     match = true;
+
+                    Log.e("data_sum_set", String.valueOf(sums.get(i) + n));
                     break;
                 }
             }
